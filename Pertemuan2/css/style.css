@@ -1,0 +1,75 @@
+body { font-family: sans-serif; max-width: 800px; margin: auto; padding: 16px; }
+.form-group { margin-bottom: 15px; }
+label { display: block; margin-bottom: 5px; }
+input[type="text"] {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;   
+    border-radius: 16px;      
+    background-color: #fff;
+    outline: none;            
+    transition: border-color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+input[type="text"]:focus {
+    border-color: #80bdff;  
+    box-shadow: 0 0 0 0.1rem rgba(0,123,255,0.15);
+}
+button { 
+    padding: 10px 15px; 
+    background-color: #007bff; 
+    color:white; 
+    border: none; 
+    cursor: pointer; 
+    border-radius:12px; 
+    font-weight: bold; 
+}
+.error { 
+    color: #a02a2a;
+    font-size: 0.9em; 
+    background-color: #fcebeb; 
+    border-radius: 4px; 
+    padding: 15px; 
+
+    position: relative; 
+    overflow: hidden; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+.error::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px; 
+    background-color: #e3342f; 
+}
+.success { 
+    color: #1a7c36; 
+    font-weight: bold; 
+    background-color: #e6f7e9; 
+    border-radius: 4px;
+    padding: 15px; 
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.success::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px; 
+    background-color: #38c172;
+}
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+}
+th, td { 
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: left; 
+}
+th { background-color: #f2f2f2; }
