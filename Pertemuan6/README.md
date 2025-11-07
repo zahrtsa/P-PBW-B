@@ -18,7 +18,8 @@ Membuat aplikasi Laravel dari nol, memasang Filament Panel, dan membangun CRUD s
 ## Tampilan Aplikasi 
 ### Login
 <img src="img\admin\login.png" width="100%" height="100%">
-###  Dashboard Admin
+
+### Dashboard Admin
 <img src="img\admin\dashboard.png" width="100%" height="100%"> 
 
 ### [CRUD]:Siswa
@@ -34,7 +35,7 @@ Delete Siswa
 
 ### [CRUD]:Kegiatan
 Index Kegiatan
-<img src="img\admin\index-Kegiatan.png" width="100%" height="100%"> 
+<img src="img\admin\index-kegiatan.png" width="100%" height="100%"> 
 Tambah Kegiatan
 <img src="img\admin\create-kegiatan.png" width="100%" height="100%"> 
 Edit Kegiatan
